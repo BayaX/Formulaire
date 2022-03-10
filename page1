@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>  Leaders University   </title>
+</head>
+<body>
+       <form action ="programe1.php" method ="get" > 
+
+            <input name ="Nom" type="text" placeholder="Saisir un nom" /> <br> </br>
+            <input name ="Pwd" type="password"   value="nnn"   placeholder="Saisir le mot de passe" /> <br> </br>
+            <input name ="DateN" type="date" /> <br> </br>
+            <input name ="Email" type="email" />   <br> </br>
+            <input name ="fichier" type="file" /> <br> </br>
+            <input name ="Chk" type="checkbox" /> <br> </br>
+            <input name ="rd" type="radio" /> <br> </br>
+            <input name ="btn" type="button" /> <br> </br>
+            <input name ="Couleur" type="color" /> <br> </br>
+            <input name ="Note" type="range" /> <br> </br>
+            <input name ="Recherche" type="search" placeholder="Recherche..." />  <br> </br>
+            <input name ="Recherche" type="week" /> <br> </br>
+            
+            <SELECT NAME=“list_choix" size="5"  multiple   >
+                <OPTION value=1 >Premier choix
+                <OPTION value=2 SELECTED>Deuxième choix
+                <OPTION value=3 >Troisième choix
+                <OPTION value=4 >Quatrième choix
+                <OPTION value=5 >Cinquième choix
+                </SELECT>
+                <br> </br>
+
+
+
+                 <TEXTAREA NAME="commentaire" COLS="30" ROWS="5"  placeholder="Entrez votre texte">
+                    
+               
+                
+                 </TEXTAREA>
+                <br> </br>
+            <input  type="reset"  value="RAZ" /> <br> </br>
+            <input  type="reset"  value="Envoyer" /> <br> </br>
+         
+                   
+
+
+
+
+       </form>
+
+
+
+
+</body>
+</html>
